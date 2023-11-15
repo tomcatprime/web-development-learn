@@ -1,2 +1,2 @@
-# web-developent-learn
+# web-development-learn
 Repo for learning web development
