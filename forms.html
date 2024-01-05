@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Test page</h2>
+    <form>
+        <input type="text">
+    </form>
+
+    <h2>more inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything!</label>
+        <button>Submit</button>
+    </form>
+
+    <h2>radio button</h2>
+    <form action="/radios">
+        <label for="small">S</label>
+        <input type="radio" name="size" id="small" value="small">
+    </br>
+        <label for="medium">M</label>
+        <input type="radio" name="size" id="medium" value="medium">
+    </br>
+        <label for="large">XL</label>
+        <input type="radio" name="size" id="large" value="large">
+    </br>
+        <button><h3><b>Submit</b></h3></button>
+    </form>
+    <form action="/brands">
+    <label for="brand-select">Please select brand</label>
+    <select name="brand" id="brand-select">Select Brand 
+        <option value="adidas">Adidas</option>
+        <option value="asics">Asics</option>
+        <option value="nike">Nike</option>
+    </select>
+    <button>Submit</button>
+
+    <label for="cheese">Amount of cheese</label>
+    <input type="range" id="cheese" min="1" max="100" value="75" name="cheese">
+
+    <label for="number">Enter a number:</label>
+    <input type="number" placeholder="enter a number" name="number" min="1" max="1000" id="number">
+    </form>
+
+    <label for="requests">Any request</label>
+    <textarea id="requests" rows="15" cols="40" name="Requests?" placeholder="type your request"></textarea>
+
+
+    <h2>Validationn</h2>
+    <form action="/dummy">
+        <label for="first">Enter first name</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="username">Username</label>
+            <input type="email" id="username" name="username" minlength="5" maxlength="20" required>
+        </p>
+        <button>Submit</button>
+
+</body>
+</html>
