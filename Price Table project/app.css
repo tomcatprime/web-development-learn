@@ -114,16 +114,16 @@ body {
 }
 
 .pricing-pring {
-    color:#016ff9;
+    color:#000000;
     display: block;
     font-size: 32px;
     font-weight: 700;
 }
 
 .pricing-button {
-    border: 1px solid blue;
+    border: 1px solid #000000;
     border-radius: 10px;
-    color: aqua;
+    color: #00b5d4;
     display: inline-block;
     padding: 15px 35px;
     text-decoration: none;
@@ -137,13 +137,13 @@ body {
 }
 
 .pricing-button.is-featured {
-    background-color: magenta;
+    background-color: #00f500;
     color: black;
 
 }
 
 .pricing-button.is-featured:hover .pricing-button.is-featured:focus{
-    background-color: magenta;
+    background-color: #00ff22;
     color: black;
     
 }
@@ -154,7 +154,7 @@ body {
     }
     .pricing-plan {
         border-bottom: none;
-        border-right: 1px solid green;
+        border-right: 1px solid #ff1e00;
         padding: 25px 50px;
     }
     .pricing-plan:last-child {
