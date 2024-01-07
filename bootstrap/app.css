@@ -1,8 +1,13 @@
 div {
-    margin-top: 0.25em;
+    margin: 0.25em;
+    border-radius: 0.25em;
 }
 
 .alert {
     margin-left: 0.25em;
 }
 
+nav {
+    margin: 0.25em;
+    border-radius: 0.25em;
+}
