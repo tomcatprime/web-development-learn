@@ -70,3 +70,22 @@ if(!firstName) {
     firstName = prompt("Enter Valid name")
 }
 
+
+
+//switch case
+const day = 2;
+
+switch (day) {
+    case 1:
+        console.log("MONDAY");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    default:
+        console.log("I don't know that");
+
+}
