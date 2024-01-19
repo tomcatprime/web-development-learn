@@ -29,3 +29,20 @@ console.log(`the new movie line array is ${movieLine}.`)
 
 movieLine.unshift()
 console.log(`the new movie line array is ${movieLine}.`)
+
+// array concat()
+let cats = ['tom', 'nancy', 'animal']
+let dogs = ['opel', 'audo', 'bmw']
+let concating = dogs.concat(cats)
+console.log(concating)
+
+// array.include()
+
+
+// slice  -getting a copy of an array
+
+let colors = ['red', 'orange', 'blue', 'yellow', 'black', 'grey', 'indigo', 'violet']
+console.log(colors)
+let newcolors = colors.slice(4) //just start point
+console.log(newcolors)
+let newColors2 = colors.slice(1,5) //start and end point index
