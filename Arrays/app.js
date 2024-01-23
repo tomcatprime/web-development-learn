@@ -46,3 +46,8 @@ console.log(colors)
 let newcolors = colors.slice(4) //just start point
 console.log(newcolors)
 let newColors2 = colors.slice(1,5) //start and end point index
+
+// object literals - key paired values
+const person = {firstName: 'Karol', lastName: 'Szejk'}
+
+
