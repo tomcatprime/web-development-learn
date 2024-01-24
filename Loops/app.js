@@ -80,3 +80,10 @@ while(true){
 }
 
 
+// for..Of loop
+
+const reddits = ['cringe', 'books', 'chickens', ' funny']
+
+for (let sub of reddits){
+    console.log(sub)
+}
