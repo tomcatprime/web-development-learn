@@ -87,3 +87,33 @@ const reddits = ['cringe', 'books', 'chickens', ' funny']
 for (let sub of reddits){
     console.log(sub)
 }
+
+
+//Iterating over Objects
+const testScores = {
+    keenan: 80,
+    karol: 100,
+    kim: 89,
+    marlon: 89,
+    nadia: 29,
+    diedra: 81
+}
+for (let person in testScores){
+    console.log(`#{person} scored ${testScores[person]}`);
+}
+//iterating over object with method Object.
+
+const scoreTest = {
+    keenan: 80,
+    karol: 100,
+    kim: 89,
+    marlon: 89,
+    nadia: 29,
+    diedra: 81
+}
+let total = 0;
+let scores = Object.values(scoreTest);
+for(let score of scores){
+    total += scored;
+}
+console.log(total/scores.lenght)
