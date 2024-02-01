@@ -82,3 +82,36 @@ function makeBetweenFunc(min, max) {
         return num >= min && num <= max;
     }
 }
+
+//methods - we can add function as properties on objects
+const myMath = {
+    PI: 3.14159,
+    square: function (num) {
+        return num * num;
+    },
+    cube: function (num) {
+        return num ** 3;
+    }
+}
+
+//Define an object called square, which will hold methods that have to do with the geometry of squares. It should contain two methods, area and perimeter 
+const square = {
+    area: function (side){
+        return side * side;
+        },
+    perimeter: function (side){
+        return side * 4;
+    }
+}
+
+//'this' in methods
+
+const cat = {
+    name: 'Pola',
+    color: 'colorful',
+    breed: 'dachowiec',
+    meow() {
+        console.log(this.color);
+
+    }
+}
