@@ -117,3 +117,8 @@ for(let score of scores){
     total += scored;
 }
 console.log(total/scores.lenght)
+
+
+
+// Functions
+
