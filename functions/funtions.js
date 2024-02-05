@@ -115,3 +115,13 @@ const cat = {
 
     }
 }
+
+
+//using try/catch
+
+try {
+    hello.toUpperCase();
+} catch {
+    console.log("Errorrrrrrrrr!!!!!");
+}
+
