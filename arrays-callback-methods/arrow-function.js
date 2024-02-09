@@ -72,3 +72,6 @@ const person = {
         return `${this.firstName} ${this.lastName}`
     }
 }
+
+
+//default params
