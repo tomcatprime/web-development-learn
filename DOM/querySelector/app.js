@@ -47,3 +47,19 @@ container.style.textAlign = 'center';
 const image = document.querySelector("img");
 image.style.width = '150px';
 image.style.borderRadius = '50%';
+
+
+/*
+Please write some JavaScript to make them rainbow-colored! 
+
+In app.js you'll find an array of color names called colors.  It looks like: ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+*/
+
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']; //PLEASE DON'T CHANGE THIS LINE!
+
+//YOU CODE GOES HERE:
+const word = document.querySelectorAll('span');
+for (let i = 0; i < word.length; i++){
+    word[i].style.color = colors[i];
+}
+
