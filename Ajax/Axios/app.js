@@ -32,6 +32,8 @@ const addNewJoke = async () => {
     jokes.append(newLI);
 }
 
+
+
 const getDadJoke = async () => {
     try{
     const config = { headers: {Accept: 'application/json',} };
